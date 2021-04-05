@@ -1,0 +1,78 @@
+@import 'NavBar';
+@import 'Home';
+@import 'Post';
+@import 'ContactsMini';
+@import 'FormLogin';
+@import 'Dashboard';
+@import 'Multimedia';
+
+.mt-menu{
+
+    margin-top: 120px;
+
+}
+
+p{
+
+    text-align: justify;
+    white-space: pre-line;
+
+}
+
+@media (max-width: 776px){
+
+    p{
+
+        font-size: .80rem !important;
+
+    }
+
+    .mt-menu{
+
+        margin-top: 100px;
+
+    }
+
+    h1{
+
+        font-size: 1.75rem !important;
+
+    }
+
+    h3{
+
+        font-size: 1.25rem !important;
+
+    }
+
+    h4{
+
+        font-size: 1rem !important;
+
+    }
+
+    h5{
+
+        font-size: 0.75rem !important;
+
+    }
+
+    .text-size-social{
+
+        font-size: $font-size-item-small;
+
+    }
+
+}
+
+.border-middle{
+
+    border-right: 4px solid $orange;
+
+}
+
+.border-bottom-orange-2{
+
+    border-bottom: 2px solid $orange;
+
+}

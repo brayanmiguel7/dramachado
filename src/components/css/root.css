@@ -1,0 +1,12 @@
+/* Colores del sitio */
+
+:root{
+
+    --white: rgb(250, 250, 250);
+    --green: rgb(74, 175, 114);
+    --yellow: rgb(241, 214, 76);
+    --blue: rgb(0, 142, 151);
+    --orange: rgb(255, 173, 0);
+    --dark-blue: rgb(0, 52, 78);
+
+}

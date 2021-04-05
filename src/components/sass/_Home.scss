@@ -1,0 +1,128 @@
+@import 'root';
+
+.img-dramachado{
+
+    width: 200px;
+
+}
+
+.over-h{
+
+    overflow: hidden;
+
+}
+
+.col-4{
+
+    p{
+
+        display: inline-block;
+        position: relative;
+
+    }
+
+}
+
+.bg-blue{
+
+    background-color: $blue;
+
+}
+
+.border-radius-sm{
+
+    border-radius: $border-radius;
+
+}
+
+.col-11{
+
+    border-left: 4px solid $yellow;
+
+}
+
+.height-100{
+
+    align-items: center;
+    display: flex;
+    height: 80vh;
+
+    div{
+ 
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+}
+
+p{
+
+    animation: ease-in-out;
+    animation-name: display;
+    animation-duration: 1000ms;
+
+}
+
+@keyframes display{
+
+    from{
+
+        color: $white;
+
+    }
+    to{
+
+        color: rgb(0, 0, 0);
+
+    }
+
+}
+
+@media (max-width: 767px){
+
+    .img-dramachado{
+
+        width: 120px;
+
+    }
+
+    p{
+
+        font-size: $font-size-item-small;
+        text-align: left;
+
+    }
+
+    .bg-blue-media{
+
+        background-color: $blue;
+        color: $white;
+
+    }
+
+    .border-radius{
+
+        border-radius: $border-radius;
+
+    }
+
+    .m-0{
+
+        margin: 0px;
+
+    }
+        
+    #container-main-text{
+
+        a{
+
+            color: $color-bg-green;
+
+        }
+
+    }
+
+
+}
+

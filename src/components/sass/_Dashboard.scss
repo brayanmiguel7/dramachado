@@ -1,0 +1,30 @@
+@import 'root';
+
+.btn-green{
+
+    background-color: $green;
+    color: $white;
+    transition-duration: 500ms;
+
+}
+
+.btn-green:hover{
+
+    background-color: $white;
+    color: $green;
+    border: 1px solid $green;
+
+}
+
+.vh-75{
+
+    align-content: center;
+    height: 70vh;
+
+}
+
+.borderx-orange{
+
+    border: 1px solid $orange;
+
+}
