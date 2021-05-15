@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import isologo from './img/isologo.png';
+import CV from './img/cv_dramachado.jpeg';
 import { Menu as MenuIcon } from '@material-ui/icons';
 import $ from 'jquery';
 import axios from 'axios';
@@ -109,11 +110,13 @@ class NavBar extends Component{
                                 <Link className='nav-link' to='/dramachado'>Inicio</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link className='nav-link' to='/dramachado/vitae'>Currículum</Link>
+                                <Link className='nav-link' to={ CV } target='_blank' download>Currículum</Link>
                             </li>
-                            <li className='nav-item'>
-                                <Link className='nav-link' to='/dramachado/contacts'>Contactos</Link>
-                            </li>
+                            {/*
+                                <li className='nav-item'>
+                                    <Link className='nav-link' to='/dramachado/contacts'>Contactos</Link>
+                                </li>
+                            */}
                             <li className='nav-item'>
                                 <Link className='nav-link' to='/dramachado/multimedia'>Multimedia</Link>
                             </li>
@@ -151,11 +154,13 @@ class NavBar extends Component{
                             <Link to='/dramachado'>Inicio</Link>
                         </li>
                         <li>
-                            <Link to='/dramachado/vitae'>Currículum</Link>
+                            <Link to={ CV } target='_blank' download>Currículum</Link>
                         </li>
-                        <li>
-                            <Link to='/dramachado/contacts'>Contactos</Link>
-                        </li>
+                        {/*
+                            <li>
+                                <Link to='/dramachado/contacts'>Contactos</Link>
+                            </li>
+                        */}
                         <li>
                             <Link to='/dramachado/multimedia'>Multimedia</Link>
                         </li>

@@ -6,6 +6,31 @@
 @import 'Dashboard';
 @import 'Multimedia';
 
+/* @font-face {
+    font-family: 'TW Cen MT';
+    font-style: regular;
+    src: url('../font/TCM_____.TTF');
+} */
+
+/* body{
+
+    font-family: 'TW Cen MT';
+
+} */
+
+body::-webkit-scrollbar{
+
+    background-color: transparent;
+    width: 10px;
+
+}
+
+body::-webkit-scrollbar-thumb{
+
+    background-color: $orange;
+
+}
+
 .mt-menu{
 
     margin-top: 120px;
@@ -30,6 +55,12 @@ p{
     .mt-menu{
 
         margin-top: 100px;
+
+    }
+
+    .border-sm-right{
+
+        border-right: none !important;
 
     }
 
@@ -71,8 +102,44 @@ p{
 
 }
 
+.border-top-2{
+
+    border-top: 2px solid;
+
+}
+
 .border-bottom-orange-2{
 
     border-bottom: 2px solid $orange;
+
+}
+
+.border-sm-right{
+
+    border-right: 2px solid;
+
+}
+
+.border-yellow{
+
+    border-color: $yellow !important;
+
+}
+
+.border-bottom-green{
+
+    border-bottom: 1px solid $green;
+
+}
+
+.color-yellow{
+
+    color: $yellow;
+
+}
+
+.bg-yellow{
+
+    background-color: $yellow;
 
 }

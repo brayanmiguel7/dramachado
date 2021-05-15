@@ -7,6 +7,7 @@ import axios from 'axios';
 import URL from './const';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import Multimedia from './components/Multimedia';
 import FormLogin from './components/admin/FormLogin';
 import Dashboard from './components/admin/Dashboard';
@@ -80,6 +81,8 @@ class App extends Component{
 
       });
 
+      console.log(res.data)
+
     })
     .catch(error => {
 
@@ -126,7 +129,8 @@ class App extends Component{
               </Route>
 
             </Switch>
-
+            <Footer />
+    
           </Router>
         
         </div>

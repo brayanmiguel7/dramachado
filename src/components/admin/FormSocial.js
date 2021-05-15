@@ -4,9 +4,10 @@ import URL from '../../const';
 
 export default function FormSocial(props){
 
+    const [ owners, setOwners ] = useState({})
+
     const getSocialNets = async(id) => {
 
-        console.log(id);
         await axios.get(URL + '/social/getSocialNets.php?id=' + id)
         .then(res => {
 
@@ -29,11 +30,12 @@ export default function FormSocial(props){
 
     }
 
-    /*useEffect(() => {
+    useEffect(() => {
 
-        console.log('Funcionando');
+        console.log(props.owners);
+        setOwners([props.owners])
 
-    });*/
+    });
 
     return(
 

@@ -73,13 +73,6 @@ nav{
 
 }
 
-.nav-link{
-
-    color: var(--dark-blue);
-    font-size: 18px;
-
-}
-
 .nav-link:hover{
 
     color: var(--blue);

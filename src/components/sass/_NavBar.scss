@@ -1,5 +1,11 @@
 @import 'root';
 
+nav{
+
+    box-shadow: 6px 4px 10px 2px $dark-blue;
+
+}
+
 div{
 
     display: inline-block;
@@ -46,13 +52,14 @@ div{
         font-size: $font-size-item-small;
         list-style: none;
         padding: 0;
+        padding-top: 10px;
 
     }
     a{
 
         color: var(--dark-blue);
         border: 1px solid;
-        border-color: rgb(228, 228, 228);
+        border-color: rgb(160, 160, 160);
         display: block;
         padding: 6px 10px;
 
@@ -73,5 +80,12 @@ div{
 .active{
 
     color: $blue !important;
+
+}
+
+.nav-link{
+
+    color: $dark-blue;
+    font-size: $font-size-item-large;
 
 }
