@@ -1,0 +1,44 @@
+@import 'root';
+
+.text-justify{
+
+    text-indent: 24px;
+
+}
+
+.btn-blue{
+
+    background-color: $blue;
+    color: $white;
+    transition-duration: 500ms;
+
+}
+
+.btn-blue:hover{
+
+    background-color: $white;
+    color: $blue;
+
+}
+
+@media (max-width: 776px){
+
+    .border-middle{
+
+        border: none !important;
+
+    }
+
+    .col-md-6{
+
+        margin-left: 0 !important;
+
+    }
+
+    .audio-d-text{
+
+        font-size: .75rem;
+
+    }
+
+}

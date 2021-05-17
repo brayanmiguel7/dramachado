@@ -1,0 +1,16 @@
+@import 'root';
+
+.btn-green{
+
+    background-color: $green;
+    color: $white;
+    transition-duration: 500ms;
+
+}
+
+.btn-green:hover{
+
+    background-color: $white;
+    color: $green;
+
+}

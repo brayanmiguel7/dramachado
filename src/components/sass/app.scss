@@ -1,0 +1,157 @@
+@import 'NavBar';
+@import 'Home';
+@import 'Post';
+@import 'ContactsMini';
+@import 'FormLogin';
+@import 'Dashboard';
+@import 'Multimedia';
+
+/* @font-face {
+    font-family: 'TW Cen MT';
+    font-style: regular;
+    src: url('../font/TCM_____.TTF');
+} */
+
+/* body{
+
+    font-family: 'TW Cen MT';
+
+} */
+
+@font-face {
+    font-family: 'Nexa Regular';
+    font-style: regular;
+    src: url('../font/NexaRegular.otf');
+}
+
+body{
+
+    font-family: 'Nexa Regular';
+
+}
+
+body::-webkit-scrollbar{
+
+    background-color: transparent;
+    width: 10px;
+
+}
+
+body::-webkit-scrollbar-thumb{
+
+    background-color: $orange;
+
+}
+
+.mt-menu{
+
+    margin-top: 120px;
+
+}
+
+p{
+
+    text-align: justify;
+    white-space: pre-line;
+
+}
+
+@media (max-width: 776px){
+
+    p{
+
+        font-size: .80rem !important;
+
+    }
+
+    .mt-menu{
+
+        margin-top: 100px;
+
+    }
+
+    .border-sm-right{
+
+        border-right: none !important;
+
+    }
+
+    h1{
+
+        font-size: 1.75rem !important;
+
+    }
+
+    h3{
+
+        font-size: 1.25rem !important;
+
+    }
+
+    h4{
+
+        font-size: 1rem !important;
+
+    }
+
+    h5{
+
+        font-size: 0.75rem !important;
+
+    }
+
+    .text-size-social{
+
+        font-size: $font-size-item-small;
+
+    }
+
+}
+
+.border-middle{
+
+    border-right: 4px solid $orange;
+
+}
+
+.border-top-2{
+
+    border-top: 2px solid;
+
+}
+
+.border-bottom-orange-2{
+
+    border-bottom: 2px solid $orange;
+
+}
+
+.border-sm-right{
+
+    border-right: 2px solid;
+
+}
+
+.border-yellow{
+
+    border-color: $yellow !important;
+
+}
+
+.border-bottom-green{
+
+    border-bottom: 1px solid $green;
+
+}
+
+.color-yellow{
+
+    color: $yellow;
+
+}
+
+.bg-yellow{
+
+    background-color: $yellow;
+
+}

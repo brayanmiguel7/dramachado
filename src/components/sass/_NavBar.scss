@@ -1,0 +1,91 @@
+@import 'root';
+
+nav{
+
+    box-shadow: 6px 4px 10px 2px $dark-blue;
+
+}
+
+div{
+
+    display: inline-block;
+
+}
+
+.bg-white{
+
+    background-color: $white !important;
+
+}
+
+.btn-orange{
+
+    background-color: $orange;
+    color: $white;
+    transition-duration: 500ms;
+
+}
+
+.btn-orange:hover{
+
+    background-color: $white;
+    color: $orange;
+
+}
+
+.navbar-brand{
+    
+    .isologo{
+
+        width: 200px;
+
+    }
+
+}
+
+.container-menu-canvas{
+
+    background-color: $white;
+
+    ul{
+
+        font-size: $font-size-item-small;
+        list-style: none;
+        padding: 0;
+        padding-top: 10px;
+
+    }
+    a{
+
+        color: var(--dark-blue);
+        border: 1px solid;
+        border-color: rgb(160, 160, 160);
+        display: block;
+        padding: 6px 10px;
+
+    }
+
+}
+
+.button-canvas{
+
+    svg{
+
+        font-size: 28px;
+
+    }
+
+}
+
+.active{
+
+    color: $blue !important;
+
+}
+
+.nav-link{
+
+    color: $dark-blue;
+    font-size: $font-size-item-large;
+
+}

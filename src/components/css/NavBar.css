@@ -1,0 +1,102 @@
+@import 'root.css';
+
+header{
+
+    z-index: 100000 !important;
+
+}
+
+nav{
+
+    z-index: 100000 !important;
+
+}
+
+.fixed{
+
+    position: sticky;
+    top: 0;
+
+}
+
+@media (max-width: 767px){
+
+    .navbar-brand .isologo{
+
+        width: 130px !important;
+
+    }
+
+    .container-menu{
+
+        display: none !important;
+
+    }
+
+    .button-canvas{
+
+        background-color: transparent;
+        border-style: none;
+        /*border-color: var(--yellow);*/
+        border-radius: 5px;
+        display: flex !important;
+        padding: 8px;
+        margin-left: auto;
+        margin-right: 4%;
+
+    }
+
+    .container-menu-canvas{
+
+        display: block !important;
+        z-index: -100000 !important;
+
+    }
+
+}
+
+.navbar-border{
+
+    border-bottom: 2px solid var(--yellow);
+
+}
+
+.container-menu{
+
+    margin-right: 4%;
+
+}
+
+.button-canvas{
+
+    display: none;
+
+}
+
+.nav-link:hover{
+
+    color: var(--blue);
+
+}
+
+.container-menu-canvas{
+
+    border: 2px solid var(--yellow);
+    border-top: none;
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    display: none;
+    height: auto;
+    position: fixed;
+    right: 0;
+    transition-duration: 1000ms;
+    top: -40%;
+    width: 40%;
+
+}
+
+.showCanvas{
+
+    top: 65px !important;
+
+}
